@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet-Friendly City Campaign</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <div class="logo-icon">🐾</div>
+            <span>Pet-Friendly City</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#volunteer">Volunteer</a></li>
+            <li><a href="#impact">Impact Stories</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Making Cities Paw-some! 🐾✨</h1>
+            <p>Join us in creating a world where every pet has a loving home and every city is pet-friendly.</p>
+            <div class="cta-buttons">
+                <a href="#volunteer" class="btn primary">Join the Movement</a>
+                <a href="#about" class="btn secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&auto=format&fit=crop&q=60" alt="Happy pets in the city">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Our Mission 🎯</h2>
+        <div class="about-content">
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">🏠</div>
+                    <h3>Our Vision</h3>
+                    <p>Creating cities where every pet has a loving home and every community embraces animal welfare.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">🤝</div>
+                    <h3>What We Do</h3>
+                    <p>We organize community events, provide pet care education, and facilitate pet adoptions across cities.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">📈</div>
+                    <h3>Our Impact</h3>
+                    <p>Over 1000+ pets adopted, 500+ volunteers engaged, and 50+ pet-friendly communities created.</p>
+                </div>
+            </div>
+            <div class="about-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="1000">0</span>
+                    <span class="stat-label">Pets Adopted</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="500">0</span>
+                    <span class="stat-label">Active Volunteers</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="50">0</span>
+                    <span class="stat-label">Pet-Friendly Communities</span>
+                </div>
+            </div>
+            <div class="about-cta">
+                <p>Join us in making our cities more pet-friendly and ensuring every animal has a loving home.</p>
+                <a href="#volunteer" class="btn primary">Get Involved</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteer Form Section -->
+    <section id="volunteer" class="volunteer-section">
+        <h2>Become a Volunteer 🐾</h2>
+        <form class="volunteer-form" id="volunteerForm">
+            <div class="form-group">
+                <input type="text" id="name" required>
+                <label for="name">Full Name</label>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" required>
+                <label for="email">Email Address</label>
+            </div>
+            <div class="form-group">
+                <input type="tel" id="phone" required>
+                <label for="phone">Phone Number</label>
+            </div>
+            <div class="form-group">
+                <select id="city" required>
+                    <option value="">Select Your City</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="bangalore">Bangalore</option>
+                    <option value="chennai">Chennai</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <select id="role" required>
+                    <option value="">Select Your Role</option>
+                    <option value="feeder">Street Animal Feeder</option>
+                    <option value="rescuer">Animal Rescuer</option>
+                    <option value="educator">Community Educator</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <button type="submit" class="btn primary">Submit Application</button>
+        </form>
+    </section>
+
+    <!-- Impact Stories Section -->
+    <section id="impact" class="impact-section">
+        <h2>Impact Stories 💫</h2>
+        <div class="stories-container">
+            <div class="story-card">
+                <div class="story-image">
+                    <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&auto=format&fit=crop&q=60" alt="Success Story 1">
+                    <div class="story-overlay">
+                        <span class="story-icon">🐕</span>
+                    </div>
+                </div>
+                <div class="story-content">
+                    <h3>Raju's Journey</h3>
+                    <p>From street dog to therapy companion, Raju now brings joy to hospital patients.</p>
+                    <div class="story-stats">
+                        <span><i class="fas fa-heart"></i> 1.2k</span>
+                        <span><i class="fas fa-comment"></i> 45</span>
+                    </div>
+                    <a href="#story1" class="btn secondary story-btn">Read Full Story</a>
+                </div>
+            </div>
+            <div class="story-card">
+                <div class="story-image">
+                    <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=800&auto=format&fit=crop&q=60" alt="Success Story 2">
+                    <div class="story-overlay">
+                        <span class="story-icon">🏘️</span>
+                    </div>
+                </div>
+                <div class="story-content">
+                    <h3>Community Transformation</h3>
+                    <p>How our volunteers transformed a neighborhood into a pet-friendly paradise.</p>
+                    <div class="story-stats">
+                        <span><i class="fas fa-heart"></i> 2.5k</span>
+                        <span><i class="fas fa-comment"></i> 89</span>
+                    </div>
+                    <a href="#story2" class="btn secondary story-btn">Read Full Story</a>
+                </div>
+            </div>
+            <div class="story-card">
+                <div class="story-image">
+                    <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&auto=format&fit=crop&q=60" alt="Success Story 3">
+                    <div class="story-overlay">
+                        <span class="story-icon">📚</span>
+                    </div>
+                </div>
+                <div class="story-content">
+                    <h3>Education Impact</h3>
+                    <p>Teaching 1000+ children about responsible pet ownership and animal welfare.</p>
+                    <div class="story-stats">
+                        <span><i class="fas fa-heart"></i> 3.1k</span>
+                        <span><i class="fas fa-comment"></i> 156</span>
+                    </div>
+                    <a href="#story3" class="btn secondary story-btn">Read Full Story</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pet Adoption Carousel -->
+    <section class="adoption-section">
+        <h2>Adopt a Friend 🐕</h2>
+        <div class="carousel">
+            <div class="carousel-container">
+                <div class="pet-card">
+                    <img src="https://images.unsplash.com/photo-1546527868-ccb7ee7dfa6a?w=800&auto=format&fit=crop&q=60" alt="Adoptable Pet 1">
+                    <h3>Max</h3>
+                    <p>2 years old | Male | Friendly</p>
+                    <a href="#adopt-max" class="btn secondary">Learn More</a>
+                </div>
+                <div class="pet-card">
+                    <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=800&auto=format&fit=crop&q=60" alt="Adoptable Pet 2">
+                    <h3>Luna</h3>
+                    <p>1 year old | Female | Playful</p>
+                    <a href="#adopt-luna" class="btn secondary">Learn More</a>
+                </div>
+                <div class="pet-card">
+                    <img src="https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?w=800&auto=format&fit=crop&q=60" alt="Adoptable Pet 3">
+                    <h3>Rocky</h3>
+                    <p>3 years old | Male | Calm</p>
+                    <a href="#adopt-rocky" class="btn secondary">Learn More</a>
+                </div>
+                <div class="pet-card">
+                    <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&auto=format&fit=crop&q=60" alt="Adoptable Pet 4">
+                    <h3>Milo</h3>
+                    <p>1.5 years old | Male | Energetic</p>
+                    <a href="#adopt-milo" class="btn secondary">Learn More</a>
+                </div>
+                <div class="pet-card">
+                    <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=800&auto=format&fit=crop&q=60" alt="Adoptable Pet 5">
+                    <h3>Bella</h3>
+                    <p>2 years old | Female | Gentle</p>
+                    <a href="#adopt-bella" class="btn secondary">Learn More</a>
+                </div>
+                <div class="pet-card">
+                    <img src="https://images.unsplash.com/photo-1548247416-ec66f4900b2e?w=800&auto=format&fit=crop&q=60" alt="Adoptable Pet 6">
+                    <h3>Charlie</h3>
+                    <p>1 year old | Male | Curious</p>
+                    <a href="#adopt-charlie" class="btn secondary">Learn More</a>
+                </div>
+            </div>
+            <button class="carousel-btn prev" aria-label="Previous pet"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-btn next" aria-label="Next pet"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> ishratnoori18@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +91 xxxxxxxxxx</p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ishrat-noori-4b3b70254/" target="_blank" class="social-link">Ishrat Noori</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Pet-Friendly City Campaign. Made with ❤️ by Ishrat Noori Mohammad. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form submission handling
+        document.getElementById('volunteerForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your interest! We will contact you soon.');
+            this.reset();
+        });
+
+        // Carousel functionality
+        const carousel = document.querySelector('.carousel-container');
+        const prevBtn = document.querySelector('.carousel-btn.prev');
+        const nextBtn = document.querySelector('.carousel-btn.next');
+        const cards = document.querySelectorAll('.pet-card');
+        
+        let currentIndex = 0;
+        const cardWidth = cards[0].offsetWidth + 32; // card width + gap
+        const cardsToShow = window.innerWidth > 768 ? 3 : 1;
+        const maxIndex = cards.length - cardsToShow;
+
+        function updateCarousel() {
+            const offset = -currentIndex * cardWidth;
+            carousel.style.transform = `translateX(${offset}px)`;
+            
+            // Update button states
+            prevBtn.style.opacity = currentIndex === 0 ? '0.5' : '1';
+            nextBtn.style.opacity = currentIndex === maxIndex ? '0.5' : '1';
+        }
+
+        prevBtn.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                updateCarousel();
+            }
+        });
+
+        nextBtn.addEventListener('click', () => {
+            if (currentIndex < maxIndex) {
+                currentIndex++;
+                updateCarousel();
+            }
+        });
+
+        // Update carousel on window resize
+        window.addEventListener('resize', () => {
+            const newCardsToShow = window.innerWidth > 768 ? 3 : 1;
+            if (newCardsToShow !== cardsToShow) {
+                currentIndex = 0;
+                updateCarousel();
+            }
+        });
+
+        // Initialize carousel
+        updateCarousel();
+
+        // Animated counter for stats
+        function animateCounter(element, target) {
+            let current = 0;
+            const increment = target / 50; // Adjust speed here
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    element.textContent = target;
+                    clearInterval(timer);
+                } else {
+                    element.textContent = Math.floor(current);
+                }
+            }, 40);
+        }
+
+        // Intersection Observer for stats animation
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const stats = entry.target.querySelectorAll('.stat-number');
+                    stats.forEach(stat => {
+                        const target = parseInt(stat.getAttribute('data-target'));
+                        animateCounter(stat, target);
+                    });
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        // Observe the stats section
+        const statsSection = document.querySelector('.about-stats');
+        if (statsSection) {
+            observer.observe(statsSection);
+        }
+
+        // Add hover effect to about cards
+        const aboutCards = document.querySelectorAll('.about-card');
+        aboutCards.forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-10px)';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+</body>
+</html> 
