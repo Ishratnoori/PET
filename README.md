@@ -84,8 +84,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact 📧
 
 For any queries or suggestions, please reach out to:
-- Email: info@petfriendlycity.org
-- Website: [Pet-Friendly City Campaign](https://collegetips.in/pfc/)
+- Email: ishratnoori18@gmail.com
+- Website: https://www.linkedin.com/in/ishrat-noori-4b3b70254/
 
 ---
 
