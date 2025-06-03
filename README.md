@@ -1,41 +1,49 @@
 # Pet-Friendly City Campaign Website 🐾
 
-A modern, responsive website for the Pet-Friendly City Campaign, designed to spread awareness and encourage community participation in making cities more pet-friendly.
+A modern, responsive website for the Pet-Friendly City Campaign, promoting pet adoption and animal welfare in cities.
 
-## Features ✨
+## Features 🌟
 
-- **Modern Design**: Clean and intuitive user interface with smooth animations
-- **Responsive Layout**: Works seamlessly on all devices (mobile, tablet, desktop)
-- **Interactive Elements**: 
-  - Animated hero section
-  - Hover effects on buttons and cards
-  - Pet adoption carousel
-  - Volunteer registration form
-- **Impact Stories**: Showcase success stories and community achievements
-- **Mobile-First Approach**: Optimized for all screen sizes
+- Responsive design that works on all devices
+- Interactive pet adoption carousel
+- Volunteer registration form
+- Impact stories section
+- Modern animations and transitions
+- Pet-friendly color scheme
 
-## Technologies Used 🛠️
+## Technologies Used 💻
 
 - HTML5
 - CSS3
-- Google Fonts (Poppins)
+- JavaScript
 - Font Awesome Icons
-- CSS Animations and Transitions
-- CSS Grid and Flexbox for layouts
+- Google Fonts
 
-## Setup Instructions 📝
+## Live Demo 🌐
+
+Visit the live website: [Pet-Friendly City Campaign](https://ishratnoori.github.io/pawesome-city/)
+
+## Setup Instructions 🚀
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/Ishratnoori/pawesome-city.git
 ```
 
-2. Navigate to the project directory:
-```bash
-cd pet-friendly-city
-```
+2. Open `index.html` in your browser to view the website locally.
 
-3. Open `index.html` in your web browser to view the website.
+## Contributing 🤝
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Contact 📧
+
+- Email: ishratnoori18@gmail.com
+- LinkedIn: [Ishrat Noori](https://www.linkedin.com/in/ishrat-noori-4b3b70254/)
+
+## License 📝
+
+This project is open source and available under the [MIT License](LICENSE).
 
 ## Project Structure 📁
 
@@ -72,20 +80,6 @@ pet-friendly-city/
    - Sliding carousel
    - Navigation buttons
    - Responsive design
-
-## Contributing 🤝
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License 📄
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact 📧
-
-For any queries or suggestions, please reach out to:
-- Email: ishratnoori18@gmail.com
-- Website: https://www.linkedin.com/in/ishrat-noori-4b3b70254/
 
 ---
 
